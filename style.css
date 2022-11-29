@@ -12,6 +12,9 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+[class^="col"] {
+  padding: 0 10px;
+}
 .col-12 {
   flex-basis: 100%; /* flex: 100% 0 0; */
   flex-grow: 0;
